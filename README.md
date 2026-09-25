@@ -1,15 +1,16 @@
 # Raylton Morato — Personal Trainer
 
-Landing page responsiva em HTML, CSS e JavaScript, com apresentação do profissional, método de trabalho e contato pelo Instagram.
+Landing page responsiva em HTML, CSS e JavaScript, com apresentação do profissional, método de trabalho, identidade visual preto/prata baseada na logo oficial e contato pelo Instagram.
 
 ## Arquivos
 
 - `index.html` — estrutura, conteúdo e metadados da página
-- `style.css` — identidade visual, responsividade, foco e animações
+- `style.css` — paleta preto/prata, responsividade, foco e animações
 - `script.js` — menu acessível, animações progressivas e navegação ativa
-- `assets/raylton-hero.jpeg` — foto principal
-- `assets/raylton-about.jpeg` — foto da seção Sobre
-- `assets/favicon.svg` — favicon
+- `assets/morato-logo.jpg` — logo oficial para cabeçalho e rodapé
+- `assets/favicon.png` — ícone metálico baseado no símbolo da logo
+- `assets/raylton-hero-restored.webp` — retrato principal restaurado e otimizado
+- `assets/raylton-about-clean.webp` — retrato limpo, sem a interface da captura do Instagram
 
 ## Como executar
 
