@@ -1,12 +1,12 @@
-# Raylton Morato — Landing Page Premium
+# Raylton Morato — Personal Trainer
 
-Estrutura completa em HTML + CSS + JavaScript, com as duas fotos enviadas pelo usuário já incluídas.
+Landing page responsiva em HTML, CSS e JavaScript, com apresentação do profissional, método de trabalho e contato pelo Instagram.
 
 ## Arquivos
 
-- `index.html` — estrutura completa da landing page
-- `style.css` — visual, responsividade, animações e layout
-- `script.js` — menu mobile, scroll reveal e navegação
+- `index.html` — estrutura, conteúdo e metadados da página
+- `style.css` — identidade visual, responsividade, foco e animações
+- `script.js` — menu acessível, animações progressivas e navegação ativa
 - `assets/raylton-hero.jpeg` — foto principal
 - `assets/raylton-about.jpeg` — foto da seção Sobre
 - `assets/favicon.svg` — favicon
@@ -15,20 +15,23 @@ Estrutura completa em HTML + CSS + JavaScript, com as duas fotos enviadas pelo u
 
 Basta abrir `index.html` no navegador.
 
-Também pode publicar a pasta inteira em:
+Também é possível publicar a pasta inteira em:
 - Vercel
 - Netlify
 - GitHub Pages
 
-## Antes de publicar
+## Contato e conteúdo
 
-Procure por `5500000000000` em `index.html` e substitua pelo número real do WhatsApp com DDI + DDD.
+O contato atualmente direciona para [@morattopersonal](https://instagram.com/morattopersonal). Não foi incluído um link de WhatsApp porque o número real não está configurado no repositório.
 
-Também confirme:
-- serviços reais;
-- cidade/endereço;
-- formação e credenciais;
-- depoimentos;
-- resultados e fotos de alunos.
+Antes da publicação, confirme se o perfil do Instagram está correto e revise as informações comerciais e profissionais que deseja divulgar, como formatos de atendimento, local de atendimento, formação e credenciais. A página evita apresentar depoimentos, resultados ou qualificações não fornecidos.
 
-O conteúdo marcado como exemplo/editável não deve ser publicado como informação factual sem confirmação.
+## Verificação local
+
+Abra `index.html` diretamente no navegador ou inicie um servidor estático na raiz do projeto, por exemplo:
+
+```bash
+python3 -m http.server 8000
+```
+
+Em seguida, acesse `http://localhost:8000`. Não há dependências de build ou instalação.
