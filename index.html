@@ -6,6 +6,9 @@
   <title>Raylton Morato | Personal Trainer</title>
   <meta name="description" content="Raylton Morato — Personal Trainer. Treino personalizado, acompanhamento e evolução.">
   <meta name="theme-color" content="#060708">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Raylton Morato | Personal Trainer">
+  <meta property="og:description" content="Treino personalizado, acompanhamento de perto e estratégia para evoluir com consistência.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +18,7 @@
 <body>
 
   <div class="bg-noise"></div>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="site-header" id="top">
     <div class="container nav">
@@ -27,36 +31,35 @@
       </a>
 
       <nav class="desktop-menu" aria-label="Navegação principal">
-        <a class="active" href="#top">Início</a>
+        <a class="active" href="#top" aria-current="page">Início</a>
         <a href="#sobre">Sobre mim</a>
         <a href="#servicos">Serviços</a>
         <a href="#beneficios">Benefícios</a>
-        <a href="#depoimentos">Depoimentos</a>
+        <a href="#jornada">Sua jornada</a>
         <a href="#contato">Contato</a>
       </nav>
 
-      <a class="header-cta" href="https://wa.me/5500000000000" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.9A8.1 8.1 0 0 1 8 19l-4 1 1.1-3.8A8.1 8.1 0 1 1 20 11.9Z"/><path d="M8.8 8.5c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.6 1.4c.1.2.1.4-.1.6l-.4.5c-.1.1-.2.3-.1.5.2.5.7 1 1.2 1.3.4.3 1 .6 1.5.7.2 0 .3 0 .4-.2l.6-.8c.1-.2.4-.2.6-.1l1.3.6c.2.1.3.3.2.5-.1.6-.7 1.4-1.3 1.5-.6.1-1.4 0-2.4-.4-1.1-.5-2.2-1.4-3-2.3-.7-.8-1.3-1.8-1.4-2.5-.2-.6 0-1.2.5-1.7Z"/></svg>
+      <a class="header-cta" href="https://instagram.com/morattopersonal" target="_blank" rel="noopener noreferrer">
         <span>Fale comigo</span>
       </a>
 
-      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" type="button">
+      <button class="menu-toggle" aria-label="Abrir menu" aria-controls="mobile-menu" aria-expanded="false" type="button">
         <span></span><span></span><span></span>
       </button>
     </div>
 
-    <div class="mobile-menu" aria-hidden="true">
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Navegação móvel" aria-hidden="true" inert>
       <a href="#top">Início</a>
       <a href="#sobre">Sobre mim</a>
       <a href="#servicos">Serviços</a>
       <a href="#beneficios">Benefícios</a>
-      <a href="#depoimentos">Depoimentos</a>
+      <a href="#jornada">Sua jornada</a>
       <a href="#contato">Contato</a>
-      <a class="mobile-cta" href="https://wa.me/5500000000000" target="_blank" rel="noopener">Fale comigo no WhatsApp</a>
-    </div>
+      <a class="mobile-cta" href="https://instagram.com/morattopersonal" target="_blank" rel="noopener noreferrer">Fale comigo no Instagram</a>
+    </nav>
   </header>
 
-  <main>
+  <main id="conteudo" tabindex="-1">
 
     <!-- HERO -->
     <section class="hero">
@@ -76,9 +79,8 @@
           </p>
 
           <div class="hero-actions">
-            <a class="button button-primary" href="https://wa.me/5500000000000" target="_blank" rel="noopener">
-              <span class="wa-icon">◔</span>
-              FALE COMIGO NO WHATSAPP
+            <a class="button button-primary" href="https://instagram.com/morattopersonal" target="_blank" rel="noopener noreferrer">
+              FALE COMIGO NO INSTAGRAM
               <span class="arrow">→</span>
             </a>
             <a class="button button-ghost" href="#servicos">
@@ -116,7 +118,7 @@
 
         <div class="hero-media reveal delay-1">
           <div class="hero-glow"></div>
-          <img src="assets/raylton-hero.jpeg" alt="Raylton Morato treinando em academia">
+          <img src="assets/raylton-hero.jpeg" alt="Raylton Morato treinando em academia" width="508" height="949" fetchpriority="high">
           <div class="hero-bottom-gradient"></div>
           <div class="handwritten hero-note">Mais<br><em>força</em><br>Mais<br><em>saúde</em><br>Mais<br><em>você.</em></div>
           <div class="media-badge">
@@ -132,7 +134,7 @@
       <div class="container about-grid">
         <div class="about-media reveal">
           <div class="frame-corner"></div>
-          <img src="assets/raylton-about.jpeg" alt="Raylton Morato em perfil na academia">
+          <img src="assets/raylton-about.jpeg" alt="Raylton Morato em perfil na academia" width="710" height="1536" loading="lazy" decoding="async">
         </div>
 
         <div class="about-copy reveal delay-1">
@@ -214,34 +216,28 @@
       <div class="container">
         <div class="section-intro reveal">
           <p class="eyebrow">SERVIÇOS</p>
-          <h2>ESCOLHA O PLANO<br>IDEAL PARA <strong>VOCÊ.</strong></h2>
-          <p>Apresente aqui os formatos reais de atendimento do Raylton antes de publicar.</p>
+          <h2>UM TREINO COM<br><strong>DIREÇÃO.</strong></h2>
+          <p>Um trabalho orientado por objetivo, estratégia e acompanhamento próximo.</p>
         </div>
 
-        <div class="service-grid">
+        <div class="service-grid service-grid-three">
           <article class="service-card reveal">
             <div class="service-icon">01</div>
-            <h3>PERSONAL<br>LOREM</h3>
-            <p>Descrição editável do serviço e de como o acompanhamento funciona.</p>
-            <a href="#contato">SAIBA MAIS →</a>
+            <h3>TREINO<br>PERSONALIZADO</h3>
+            <p>Planejamento alinhado ao seu objetivo, nível de experiência e rotina.</p>
+            <a href="#contato">CONHEÇA O MÉTODO →</a>
           </article>
           <article class="service-card reveal delay-1">
             <div class="service-icon">02</div>
-            <h3>PERSONAL<br>ONLINE</h3>
-            <p>Formato online com orientação e acompanhamento à distância.</p>
-            <a href="#contato">SAIBA MAIS →</a>
+            <h3>ORIENTAÇÃO<br>COM ESTRATÉGIA</h3>
+            <p>Mais clareza sobre o que fazer e como manter consistência no processo.</p>
+            <a href="#contato">CONHEÇA O MÉTODO →</a>
           </article>
           <article class="service-card reveal delay-2">
             <div class="service-icon">03</div>
-            <h3>EMAGRECIMENTO<br>SAUDÁVEL</h3>
-            <p>Objetivo e descrição devem ser ajustados de acordo com o serviço oferecido.</p>
-            <a href="#contato">SAIBA MAIS →</a>
-          </article>
-          <article class="service-card reveal delay-3">
-            <div class="service-icon">04</div>
-            <h3>GANHO DE<br>MASSA</h3>
-            <p>Treinos voltados ao objetivo do aluno, com progressão e acompanhamento.</p>
-            <a href="#contato">SAIBA MAIS →</a>
+            <h3>ACOMPANHAMENTO<br>PRÓXIMO</h3>
+            <p>Ajustes e orientação para acompanhar sua evolução ao longo do tempo.</p>
+            <a href="#contato">CONHEÇA O MÉTODO →</a>
           </article>
         </div>
       </div>
@@ -268,30 +264,30 @@
       </div>
     </section>
 
-    <!-- DEPOIMENTOS -->
-    <section class="section testimonials" id="depoimentos">
+    <!-- JORNADA -->
+    <section class="section journey" id="jornada">
       <div class="container">
         <div class="section-intro reveal">
-          <p class="eyebrow">DEPOIMENTOS</p>
-          <h2>QUEM TREINA,<br><strong>EVOLUI.</strong></h2>
-          <p>Substitua estes textos por depoimentos reais e autorizados dos seus alunos.</p>
+          <p class="eyebrow">SUA JORNADA</p>
+          <h2>EVOLUÇÃO COM<br><strong>CONSISTÊNCIA.</strong></h2>
+          <p>Um processo claro, construído para você e acompanhado de perto.</p>
         </div>
 
-        <div class="testimonial-grid">
-          <article class="testimonial reveal">
-            <div class="stars">★★★★★</div>
-            <p>“Depois que comecei a treinar com mais organização, ficou muito mais fácil manter a constância.”</p>
-            <strong>ALUNO(A)</strong>
+        <div class="journey-grid">
+          <article class="journey-card reveal">
+            <span class="journey-step">01</span>
+            <h3>CONVERSA</h3>
+            <p>O primeiro passo é entender seus objetivos, sua experiência e sua rotina.</p>
           </article>
-          <article class="testimonial reveal delay-1">
-            <div class="stars">★★★★★</div>
-            <p>“O acompanhamento fez diferença para eu entender melhor o treino e continuar evoluindo.”</p>
-            <strong>ALUNO(A)</strong>
+          <article class="journey-card reveal delay-1">
+            <span class="journey-step">02</span>
+            <h3>PLANEJAMENTO</h3>
+            <p>Com essas informações, o treino ganha direção e fica mais adequado a você.</p>
           </article>
-          <article class="testimonial reveal delay-2">
-            <div class="stars">★★★★★</div>
-            <p>“Passei a treinar com mais foco e disciplina. O processo ficou muito mais claro.”</p>
-            <strong>ALUNO(A)</strong>
+          <article class="journey-card reveal delay-2">
+            <span class="journey-step">03</span>
+            <h3>ACOMPANHAMENTO</h3>
+            <p>O processo continua com orientação para sustentar sua evolução com consistência.</p>
           </article>
         </div>
       </div>
@@ -301,15 +297,15 @@
     <section class="section contact" id="contato">
       <div class="container contact-card reveal">
         <div class="contact-image">
-          <img src="assets/raylton-hero.jpeg" alt="Raylton Morato Personal Trainer">
+          <img src="assets/raylton-hero.jpeg" alt="Raylton Morato Personal Trainer" width="508" height="949" loading="lazy" decoding="async">
         </div>
         <div class="contact-copy">
           <p class="eyebrow">PRONTO PARA COMEÇAR?</p>
           <h2>SEU OBJETIVO<br>É O MEU <strong>COMPROMISSO.</strong></h2>
           <p>Entre em contato agora mesmo e dê o primeiro passo para uma rotina de treino mais consistente.</p>
           <div class="contact-buttons">
-            <a class="button button-primary" href="https://wa.me/5500000000000" target="_blank" rel="noopener">FALE COMIGO NO WHATSAPP →</a>
-            <a class="button button-ghost" href="https://instagram.com/morattopersonal" target="_blank" rel="noopener">@MORATTOPERSONAL</a>
+            <a class="button button-primary" href="https://instagram.com/morattopersonal" target="_blank" rel="noopener noreferrer">FALE COMIGO NO INSTAGRAM →</a>
+            <a class="button button-ghost" href="https://instagram.com/morattopersonal" target="_blank" rel="noopener noreferrer">@MORATTOPERSONAL</a>
           </div>
         </div>
         <div class="contact-meta">
@@ -328,12 +324,12 @@
         <span class="brand-copy"><strong>RAYLTON MORATO</strong><small>PERSONAL TRAINER</small></span>
       </div>
       <div class="footer-links">Treino • Saúde • Disciplina • Foco • Resultados</div>
-      <a href="https://instagram.com/morattopersonal" target="_blank" rel="noopener">@morattopersonal</a>
+      <a href="https://instagram.com/morattopersonal" target="_blank" rel="noopener noreferrer">@morattopersonal</a>
     </div>
   </footer>
 
-  <a class="floating-whatsapp" href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
-    <svg viewBox="0 0 24 24"><path d="M20 11.9A8.1 8.1 0 0 1 8 19l-4 1 1.1-3.8A8.1 8.1 0 1 1 20 11.9Z"/><path d="M8.8 8.5c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.6 1.4c.1.2.1.4-.1.6l-.4.5c-.1.1-.2.3-.1.5.2.5.7 1 1.2 1.3.4.3 1 .6 1.5.7.2 0 .3 0 .4-.2l.6-.8c.1-.2.4-.2.6-.1l1.3.6c.2.1.3.3.2.5-.1.6-.7 1.4-1.3 1.5-.6.1-1.4 0-2.4-.4-1.1-.5-2.2-1.4-3-2.3-.7-.8-1.3-1.8-1.4-2.5-.2-.6 0-1.2.5-1.7Z"/></svg>
+  <a class="floating-instagram" href="https://instagram.com/morattopersonal" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo Instagram de Raylton Morato">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg>
   </a>
 
   <script src="script.js"></script>
